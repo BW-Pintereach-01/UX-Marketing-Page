@@ -1,3 +1,11 @@
+subBar {
+  color: #F0F0B9;
+  font-family: 'Niconne', cursive;
+}
+btn {
+  color: #F0F0B9;
+  background: #101C7A;
+}
 * {
   margin: 0;
   padding: 0;
