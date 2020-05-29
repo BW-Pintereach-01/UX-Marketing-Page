@@ -58,8 +58,8 @@ header nav a {
 header nav a:hover {
   text-decoration: underline;
 }
-header h1 {
-  padding-top: 3%;
+header h2 {
+  padding-top: 5%;
 }
 header img {
   width: 8%;
