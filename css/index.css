@@ -205,3 +205,6 @@ header .logo {
   display: flex;
   justify-content: space-evenly;
 }
+footer .copyRight {
+  text-align: center;
+}
