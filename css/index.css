@@ -83,6 +83,21 @@ header .logo {
   justify-content: center;
   margin-right: 9%;
 }
+@media (max-width: 500px) {
+  header {
+    height: 65vh;
+  }
+  header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav a {
+    line-height: 3;
+  }
+  header img {
+    width: 15%;
+  }
+}
 .topics {
   padding-top: 3%;
   border-bottom: 4px solid #101C7A;
@@ -143,6 +158,41 @@ header .logo {
 .topics .topicResearch {
   margin-top: 5%;
   display: flex;
+}
+@media (max-width: 500px) {
+  .topics h3 {
+    margin-top: 4%;
+  }
+  .topics .topicOne {
+    margin-left: 15%;
+  }
+  .topics .topicOne h3 {
+    padding-left: 5%;
+  }
+  .topics .topicOne img {
+    width: 80%;
+    opacity: 1;
+  }
+  .topics .topicTwo {
+    margin-left: 20%;
+  }
+  .topics .topicTwo img {
+    width: 80%;
+    opacity: 1;
+  }
+  .topics .topicThree {
+    margin-left: 15%;
+  }
+  .topics .topicThree h3 {
+    padding-left: 3%;
+  }
+  .topics .topicThree img {
+    width: 80%;
+    opacity: 1;
+  }
+  .topics .topicResearch {
+    flex-direction: column;
+  }
 }
 .notes {
   padding-top: 3%;
@@ -206,6 +256,23 @@ header .logo {
   margin-top: 3%;
   display: flex;
   justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .notes h3 {
+    padding-left: 10%;
+  }
+  .notes button {
+    margin-left: 10%;
+  }
+  .notes .infoOne button {
+    margin-left: 15%;
+  }
+  .notes .researchNotes {
+    flex-direction: column;
+  }
+  .notes .researchNotes p {
+    margin-left: 10%;
+  }
 }
 footer .copyRight {
   text-align: center;
