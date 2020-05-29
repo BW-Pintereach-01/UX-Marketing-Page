@@ -4,7 +4,9 @@
 }
 .card {
   width: 25%;
+  margin-top: 4%;
   border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
 }
 * {
   margin: 0;
@@ -75,29 +77,63 @@ header .logo {
   margin-right: 9%;
 }
 .members h1 {
+  padding-top: 2%;
+  text-align: center;
+}
+.members .memberOne {
   text-align: center;
 }
 .members .memberOne img {
   width: 25%;
+  margin-top: 4%;
   border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberTwo {
+  text-align: center;
 }
 .members .memberTwo img {
   width: 25%;
+  margin-top: 4%;
   border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberThree {
+  text-align: center;
 }
 .members .memberThree img {
   width: 25%;
+  margin-top: 4%;
   border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberFour {
+  text-align: center;
 }
 .members .memberFour img {
   width: 25%;
+  margin-top: 4%;
   border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberFive {
+  text-align: center;
 }
 .members .memberFive img {
   width: 25%;
+  margin-top: 4%;
   border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberSix {
+  text-align: center;
 }
 .members .memberSix img {
   width: 25%;
+  margin-top: 4%;
   border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberSix .cardSix p {
+  width: 15%;
 }
