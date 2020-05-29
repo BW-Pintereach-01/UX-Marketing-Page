@@ -42,4 +42,31 @@ footer {
 }
 header {
   background: #101C7A;
+  font-family: 'Niconne', cursive;
+  color: #F0F0B9;
+  height: 25vh;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav a {
+  color: #F0F0B9;
+  font-size: 27px;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header h1 {
+  padding-top: 3%;
+}
+header img {
+  width: 8%;
+  padding-top: 1%;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+  margin-right: 9%;
 }
