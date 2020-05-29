@@ -137,3 +137,16 @@ header .logo {
   margin-top: 5%;
   display: flex;
 }
+.notes {
+  padding-top: 3%;
+}
+.notes h2 {
+  text-align: center;
+}
+.notes .noteOne {
+  width: 25%;
+}
+.notes .researchNotes {
+  margin-top: 3%;
+  display: flex;
+}
