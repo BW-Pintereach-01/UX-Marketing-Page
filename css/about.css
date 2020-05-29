@@ -2,6 +2,10 @@
   font-family: 'Niconne', cursive;
   color: #F0F0B9;
 }
+.card {
+  width: 25%;
+  border-radius: 5px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -58,8 +62,8 @@ header nav a {
 header nav a:hover {
   text-decoration: underline;
 }
-header h1 {
-  padding-top: 3%;
+header h2 {
+  padding-top: 5%;
 }
 header img {
   width: 8%;
@@ -69,4 +73,31 @@ header .logo {
   display: flex;
   justify-content: center;
   margin-right: 9%;
+}
+.members h1 {
+  text-align: center;
+}
+.members .memberOne img {
+  width: 25%;
+  border-radius: 5px;
+}
+.members .memberTwo img {
+  width: 25%;
+  border-radius: 5px;
+}
+.members .memberThree img {
+  width: 25%;
+  border-radius: 5px;
+}
+.members .memberFour img {
+  width: 25%;
+  border-radius: 5px;
+}
+.members .memberFive img {
+  width: 25%;
+  border-radius: 5px;
+}
+.members .memberSix img {
+  width: 25%;
+  border-radius: 5px;
 }
