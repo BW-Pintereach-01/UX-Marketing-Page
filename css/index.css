@@ -76,3 +76,16 @@ header .logo {
   justify-content: center;
   margin-right: 9%;
 }
+.topics h2 {
+  text-align: center;
+}
+.topics .topicOne h3 {
+  margin-left: 8%;
+}
+.topics .topicOne img {
+  width: 30%;
+  border-radius: 15px;
+}
+.topics .topicOne p {
+  margin-left: 3%;
+}
