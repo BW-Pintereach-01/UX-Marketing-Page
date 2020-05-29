@@ -81,6 +81,21 @@ header .logo {
   justify-content: center;
   margin-right: 9%;
 }
+@media (max-width: 500px) {
+  header {
+    height: 65vh;
+  }
+  header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav a {
+    line-height: 3;
+  }
+  header img {
+    width: 15%;
+  }
+}
 .topics {
   padding-top: 3%;
   border-bottom: 4px solid #101C7A;
