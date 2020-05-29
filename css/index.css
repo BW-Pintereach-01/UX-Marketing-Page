@@ -278,3 +278,8 @@ footer .copyRight {
   text-align: center;
 
 }
+@media (max-width: 500) {
+  footer .contact h2 {
+    text-align: center;
+  }
+}
