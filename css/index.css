@@ -5,6 +5,11 @@
 .btn {
   color: #F0F0B9;
   background: #101C7A;
+  border-radius: 5px;
+  width: 30%;
+  height: 5vh;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 * {
   margin: 0;
@@ -136,4 +141,70 @@ header .logo {
 .topics .topicResearch {
   margin-top: 5%;
   display: flex;
+}
+.notes {
+  padding-top: 3%;
+}
+.notes h2 {
+  text-align: center;
+}
+.notes .noteOne {
+  margin-left: 3%;
+}
+.notes .noteOne h3 {
+  margin-left: 20%;
+}
+.notes .noteOne .infoOne {
+  width: 90%;
+}
+.notes .noteOne .infoOne button {
+  color: #F0F0B9;
+  background: #101C7A;
+  border-radius: 5px;
+  width: 30%;
+  height: 5vh;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: 20%;
+}
+.notes .noteTwo h3 {
+  margin-left: 25%;
+}
+.notes .noteTwo .infoTwo {
+  width: 90%;
+}
+.notes .noteTwo .infoTwo button {
+  color: #F0F0B9;
+  background: #101C7A;
+  border-radius: 5px;
+  width: 30%;
+  height: 5vh;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: 28%;
+}
+.notes .noteThree h3 {
+  margin-left: 20%;
+}
+.notes .noteThree .infoThree {
+  width: 90%;
+}
+.notes .noteThree .infoThree button {
+  color: #F0F0B9;
+  background: #101C7A;
+  border-radius: 5px;
+  width: 30%;
+  height: 5vh;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  width: 35%;
+  margin-left: 28%;
+}
+.notes .researchNotes {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .copyRight {
+  text-align: center;
 }
