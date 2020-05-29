@@ -76,11 +76,6 @@ header .logo {
   justify-content: center;
   margin-right: 9%;
 }
-@media (max-width: 500) {
-  header nav {
-    flex-direction: column;
-  }
-}
 .members h1 {
   padding-top: 2%;
   text-align: center;
