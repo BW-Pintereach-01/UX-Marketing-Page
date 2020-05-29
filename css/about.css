@@ -147,3 +147,6 @@ header .logo {
   padding-bottom: 3%;
   width: 27%;
 }
+footer .copyRight {
+  text-align: center;
+}
