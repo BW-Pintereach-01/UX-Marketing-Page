@@ -1,0 +1,152 @@
+.subBar {
+  font-family: 'Niconne', cursive;
+  color: #F0F0B9;
+}
+.card {
+  width: 25%;
+  margin-top: 4%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 5rem;
+  font-family: 'Niconne', cursive;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Niconne', cursive;
+}
+h2 {
+  font-size: 3rem;
+}
+h3,
+h4,
+h5 {
+  font-size: 2.3rem;
+}
+p {
+  font-size: 1.5rem;
+  font-family: 'Caveat', cursive;
+}
+.members {
+  background: #F0F0B9;
+}
+footer {
+  background: #101C7A;
+  font-family: 'Niconne', cursive;
+  color: #F0F0B9;
+  line-height: 1.8;
+}
+header {
+  background: #101C7A;
+  font-family: 'Niconne', cursive;
+  color: #F0F0B9;
+  height: 25vh;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav a {
+  color: #F0F0B9;
+  font-size: 27px;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header h2 {
+  padding-top: 5%;
+}
+header img {
+  width: 8%;
+  padding-top: 1%;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+  margin-right: 9%;
+}
+.members h1 {
+  padding-top: 2%;
+  text-align: center;
+}
+.members .memberOne {
+  text-align: center;
+}
+.members .memberOne img {
+  width: 25%;
+  margin-top: 4%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberOne .cardOne p {
+  margin-left: 42%;
+  width: 17%;
+}
+.members .memberTwo {
+  text-align: center;
+}
+.members .memberTwo img {
+  width: 25%;
+  margin-top: 4%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberTwo .cardTwo p {
+  margin-left: 40%;
+  width: 20%;
+}
+.members .memberThree {
+  text-align: center;
+}
+.members .memberThree img {
+  width: 25%;
+  margin-top: 4%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberFour {
+  text-align: center;
+}
+.members .memberFour img {
+  width: 25%;
+  margin-top: 4%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberFive {
+  text-align: center;
+}
+.members .memberFive img {
+  width: 25%;
+  margin-top: 4%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberSix {
+  text-align: center;
+}
+.members .memberSix img {
+  width: 25%;
+  margin-top: 4%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #101C7A;
+}
+.members .memberSix p {
+  margin-left: 38%;
+  padding-bottom: 3%;
+  width: 27%;
+}
+footer .copyRight {
+  text-align: center;
+}
