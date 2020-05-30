@@ -1,3 +1,5 @@
+
+
 .subBar {
   font-family: 'Niconne', cursive;
   color: #F0F0B9;
@@ -274,9 +276,11 @@ header .logo {
 }
 footer .copyRight {
   text-align: center;
+
 }
 @media (max-width: 500) {
   footer .contact h2 {
     text-align: center;
   }
+
 }
