@@ -1,2 +1,49 @@
 
+header{
+    background:@bar;
+    .subBar();
+    height:25vh;
+    nav{
+        display:flex;
+        justify-content: space-evenly;
+        a{
+            color:@main;
+            font-size:27px;
+            text-decoration: none;
+            &:hover{
+                text-decoration:underline;
+            }//end hover
+        }//end a
+    }//end nav
+    
+    
+     
+     h1{
+         padding-top:3%;
+     }
+     img{
+        width:8%;
+        padding-top:1%;
+     }//end img
+     .logo{
         
+        display:flex;
+        justify-content:center;    
+        margin-right:9%;
+     }//end logo
+     @media(max-width: 500px){
+        height: 65vh;
+        nav{
+            
+            flex-direction:column;
+            align-items: center;
+            a{
+                line-height: 3;
+            }//end a
+        }//end nav
+        img{
+            width:15%;
+        }//end image
+     }//end @media
+}//end header
+

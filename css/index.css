@@ -1,3 +1,284 @@
-body {
-  background-color: red;
+
+.subBar {
+  font-family: 'Niconne', cursive;
+  color: #F0F0B9;
+}
+.btn {
+  color: #F0F0B9;
+  background: #101C7A;
+  border-radius: 5px;
+  width: 30%;
+  height: 5vh;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 5rem;
+  font-family: 'Niconne', cursive;
+  color: #F0F0B9;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Niconne', cursive;
+}
+h2 {
+  font-size: 3rem;
+}
+h3,
+h4,
+h5 {
+  font-size: 2.3rem;
+}
+p {
+  font-size: 1.5rem;
+  font-family: 'Caveat', cursive;
+}
+.topics,
+.notes {
+  background: #F0F0B9;
+}
+footer {
+  background: #101C7A;
+  font-family: 'Niconne', cursive;
+  color: #F0F0B9;
+  line-height: 1.8;
+}
+header {
+  background: #101C7A;
+  font-family: 'Niconne', cursive;
+  color: #F0F0B9;
+  height: 25vh;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav a {
+  color: #F0F0B9;
+  font-size: 27px;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header h1 {
+  padding-top: 3%;
+}
+header img {
+  width: 8%;
+  padding-top: 1%;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+  margin-right: 9%;
+}
+@media (max-width: 500px) {
+  header {
+    height: 65vh;
+  }
+  header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav a {
+    line-height: 3;
+  }
+  header img {
+    width: 15%;
+  }
+}
+.topics {
+  padding-top: 3%;
+  border-bottom: 4px solid #101C7A;
+}
+.topics h2 {
+  text-align: center;
+}
+.topics .topicOne {
+  margin-left: 5%;
+}
+.topics .topicOne h3 {
+  margin-left: 15%;
+}
+.topics .topicOne img {
+  width: 65%;
+  border-radius: 15px;
+  opacity: 0.7;
+}
+.topics .topicOne img:hover {
+  opacity: 1;
+}
+.topics .topicOne p {
+  margin-left: 3%;
+}
+.topics .topicTwo {
+  margin-right: 7%;
+}
+.topics .topicTwo h3 {
+  margin-left: 20%;
+}
+.topics .topicTwo img {
+  width: 90%;
+  margin-right: 25%;
+  border-radius: 15px;
+  opacity: 0.7;
+}
+.topics .topicTwo img:hover {
+  opacity: 1;
+}
+.topics .topicTwo p {
+  margin-left: 3%;
+}
+.topics .topicThree h3 {
+  margin-left: 15%;
+}
+.topics .topicThree img {
+  width: 90%;
+  border-radius: 15px;
+  opacity: 0.7;
+}
+.topics .topicThree img:hover {
+  opacity: 1;
+}
+.topics .topicThree p {
+  margin-left: 15%;
+  padding-bottom: 7%;
+}
+.topics .topicResearch {
+  margin-top: 5%;
+  display: flex;
+}
+@media (max-width: 500px) {
+  .topics h3 {
+    margin-top: 4%;
+  }
+  .topics .topicOne {
+    margin-left: 15%;
+  }
+  .topics .topicOne h3 {
+    padding-left: 5%;
+  }
+  .topics .topicOne img {
+    width: 80%;
+    opacity: 1;
+  }
+  .topics .topicTwo {
+    margin-left: 20%;
+  }
+  .topics .topicTwo img {
+    width: 80%;
+    opacity: 1;
+  }
+  .topics .topicThree {
+    margin-left: 15%;
+  }
+  .topics .topicThree h3 {
+    padding-left: 3%;
+  }
+  .topics .topicThree img {
+    width: 80%;
+    opacity: 1;
+  }
+  .topics .topicResearch {
+    flex-direction: column;
+  }
+}
+.notes {
+  padding-top: 3%;
+}
+.notes h2 {
+  text-align: center;
+}
+.notes .noteOne {
+  margin-left: 3%;
+}
+.notes .noteOne h3 {
+  margin-left: 20%;
+}
+.notes .noteOne .infoOne {
+  width: 90%;
+}
+.notes .noteOne .infoOne button {
+  color: #F0F0B9;
+  background: #101C7A;
+  border-radius: 5px;
+  width: 30%;
+  height: 5vh;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: 20%;
+}
+.notes .noteTwo h3 {
+  margin-left: 25%;
+}
+.notes .noteTwo .infoTwo {
+  width: 90%;
+}
+.notes .noteTwo .infoTwo button {
+  color: #F0F0B9;
+  background: #101C7A;
+  border-radius: 5px;
+  width: 30%;
+  height: 5vh;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: 28%;
+}
+.notes .noteThree h3 {
+  margin-left: 20%;
+}
+.notes .noteThree .infoThree {
+  width: 90%;
+}
+.notes .noteThree .infoThree button {
+  color: #F0F0B9;
+  background: #101C7A;
+  border-radius: 5px;
+  width: 30%;
+  height: 5vh;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  width: 35%;
+  margin-left: 28%;
+}
+.notes .researchNotes {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .notes h3 {
+    padding-left: 10%;
+  }
+  .notes button {
+    margin-left: 10%;
+  }
+  .notes .infoOne button {
+    margin-left: 15%;
+  }
+  .notes .researchNotes {
+    flex-direction: column;
+  }
+  .notes .researchNotes p {
+    margin-left: 10%;
+  }
+}
+footer .copyRight {
+  text-align: center;
+}
+@media (max-width: 500) {
+  footer .contact h2 {
+    text-align: center;
+  }
+
 }
